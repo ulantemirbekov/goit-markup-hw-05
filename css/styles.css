@@ -150,6 +150,9 @@ header .navigation {
 .hero {
 	background-color: #2f303a;
 	text-align: center;
+	background-image: url("../img/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .hero .container {
