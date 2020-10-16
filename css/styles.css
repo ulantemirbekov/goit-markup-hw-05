@@ -58,6 +58,35 @@ body {
 	background-color: teal; */
 }
 
+.social-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+
+.social-list-link:hover {
+	background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-svg {
+	fill: var(--primary-white-color);
+}
+
+.social-list-svg {
+	width: 20px;
+	height: 20px;
+	fill: #afb1b8;
+}
+
 /* HEADER */
 
 header {
@@ -124,11 +153,13 @@ header .navigation {
 
 .contacts-nav {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-left: auto;
 }
 
 .contacts-nav .item:not(:last-child) {
-	margin-right: 50px;
+	margin-right: 30px;
 }
 
 .contacts-nav .link {
@@ -143,6 +174,30 @@ header .navigation {
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
 	color: var(--accent-color);
+}
+
+.envelope {
+	width: 16px;
+	height: 12px;
+	fill: var(--primary-text-color);
+	margin-right: 10px;
+}
+
+.envelope:hover,
+.envelope:focus {
+	fill: var(--accent-color);
+}
+
+header .phone {
+	width: 10px;
+	height: 16px;
+	fill: var(--primary-text-color);
+	margin-right: 10px;
+}
+
+header .phone:hover,
+header .phone:focus {
+	fill: var(--accent-color);
 }
 
 /* Hero */
@@ -289,6 +344,8 @@ button {
 .staff-list .text {
 	font-size: 16px;
 	line-height: 1.19;
+
+	margin-bottom: 16px;
 }
 
 /* footer */
