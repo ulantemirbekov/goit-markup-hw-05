@@ -293,6 +293,29 @@ button {
 	margin-bottom: 10px;
 }
 
+.features-list-svg {
+	display: flex;
+	margin-bottom: 30px;
+	/* justify-content: space-between;
+	align-items: center; */
+}
+
+.features-item-svg {
+	width: 270px;
+	padding: 25px 100px;
+	background: #f5f4fa;
+	border-radius: 4px;
+}
+
+.features-item-svg:not(:last-child) {
+	margin-right: 30px;
+}
+
+.features-svg {
+	width: 70px;
+	height: 70px;
+}
+
 /* works */
 
 .works {
