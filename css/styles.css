@@ -180,33 +180,18 @@ header .navigation {
 	color: var(--accent-color);
 }
 
-/* .contacts-nav .item:hover,
-.contacts-nav .item:focus {
-	color: var(--accent-color);
-} */
-
-.envelope {
+header .envelope {
 	width: 16px;
 	height: 12px;
-	fill: var(--primary-text-color);
+	fill: currentColor;
 	margin-right: 10px;
-}
-
-.envelope:hover,
-.envelope:focus {
-	fill: var(--accent-color);
 }
 
 header .phone {
 	width: 10px;
 	height: 16px;
-	fill: var(--primary-text-color);
+	fill: currentColor;
 	margin-right: 10px;
-}
-
-header .phone:hover,
-header .phone:focus {
-	fill: var(--accent-color);
 }
 
 /* Hero */
