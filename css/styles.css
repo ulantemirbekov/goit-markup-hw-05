@@ -301,6 +301,7 @@ button {
 
 .features-item-svg {
 	width: 270px;
+	height: 120px;
 	padding: 25px 100px;
 	background: #f5f4fa;
 	border-radius: 4px;
