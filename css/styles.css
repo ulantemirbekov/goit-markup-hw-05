@@ -387,35 +387,37 @@ button {
 
 .clients-list {
 	display: flex;
-	flex-wrap: wrap;
-}
-
-.clients-item {
-	width: 170px;
-	height: 90px;
-	border: 1px solid #afb1b8;
-	box-sizing: border-box;
-	border-radius: 4px;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center;
+	align-items: center; */
 }
 
 .clients-item:not(:last-child) {
 	margin-right: 30px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 90px;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+}
+
+.clients-list-link:hover {
 	color: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
 
+.clients-list-link:hover .clients-svg {
+	fill: var(--accent-color);
+}
+
 .clients-svg {
-	fill: currentColor;
-	width: 90px;
-	height: 55px;
+	fill: #afb1b8;
+	max-width: 90px;
+	max-height: 55px;
 }
 
 /* footer */
