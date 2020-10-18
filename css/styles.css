@@ -534,7 +534,7 @@ footer .social-list-svg {
 .examples-list {
 	display: flex;
 	flex-wrap: wrap;
-	margin: -15px;
+	margin: -16px;
 }
 
 .examples-list .item {
