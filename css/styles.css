@@ -416,8 +416,8 @@ button {
 
 .clients-svg {
 	fill: #afb1b8;
-	max-width: 90px;
-	max-height: 55px;
+	/* min-width: 40px; */
+	max-height: 52px;
 }
 
 /* footer */
