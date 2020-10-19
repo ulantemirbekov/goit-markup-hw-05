@@ -159,6 +159,22 @@ header .navigation {
 	color: var(--accent-color);
 }
 
+.site-nav .link {
+	position: relative;
+}
+
+.site-nav .link.current::after {
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -28px;
+	width: 100%;
+	height: 4px;
+	background: var(--accent-color);
+	border-radius: 2px;
+}
+
 /* contacts-nav */
 
 .contacts-nav {
