@@ -336,6 +336,23 @@ button {
 .works .item {
 	margin: 15px;
 	width: 370px;
+	text-align: center;
+	position: relative;
+}
+
+.works .text {
+	position: absolute;
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--primary-white-color);
+	background: rgba(47, 48, 58, 0.8);
+	width: 370px;
+	height: 70px;
+
+	bottom: 0;
+	padding-top: 27px;
+	padding-bottom: 27px;
 }
 
 /* .works .item:not(:last-child) {
