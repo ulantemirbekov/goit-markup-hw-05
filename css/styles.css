@@ -573,6 +573,21 @@ footer .social-list-svg {
 
 .examples-list a {
 	text-decoration: none;
+	position: relative;
+}
+
+.examples-list .description {
+	position: absolute;
+
+	font-size: 18px;
+	line-height: 1.556;
+	color: var(--primary-white-color);
+	background: rgba(33, 150, 243, 0.9);
+	width: 370px;
+	padding: 63px 24px;
+
+	top: 0;
+	left: 0;
 }
 
 .examples-list .name {
