@@ -518,6 +518,12 @@ footer .social-list-svg {
 
 /* Backdrop */
 
+.close {
+	width: 18px;
+	height: 18px;
+	padding: 3px 4px;
+}
+
 .backdrop {
 	position: fixed;
 	top: 0;
