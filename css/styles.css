@@ -75,24 +75,24 @@ body {
 	height: 44px;
 	background-color: #ffffff;
 	border-radius: 50%;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover {
 	background-color: var(--accent-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover .social-list-svg {
 	fill: var(--primary-white-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-svg {
 	width: 20px;
 	height: 20px;
 	fill: #afb1b8;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* HEADER */
@@ -146,13 +146,13 @@ header .navigation {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
 	color: var(--accent-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link.current {
@@ -198,13 +198,13 @@ header .navigation {
 
 	display: flex;
 	align-items: center;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
 	color: var(--accent-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header .envelope {
@@ -380,10 +380,6 @@ button {
 	padding-bottom: 27px;
 }
 
-/* .works .item:not(:last-child) {
-	margin-right: 30px;
-} */
-
 /* Наша команда */
 
 .staff {
@@ -456,14 +452,14 @@ button {
 
 .clients-list-link:hover .clients-svg {
 	fill: var(--accent-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-svg {
 	fill: #afb1b8;
 	/* min-width: 40px; */
 	max-height: 52px;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -617,14 +613,15 @@ footer .social-list-svg {
 
 	padding: 6px 22px;
 	min-width: 73px;
+
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-list .option:hover,
 .filter-list .option:focus {
 	background-color: var(--accent-color);
 	color: var(--primary-white-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Portfolio Examples */
@@ -639,6 +636,8 @@ footer .social-list-svg {
 	margin: 15px;
 	position: relative;
 	overflow: hidden;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-list .item:hover,
