@@ -447,11 +447,6 @@ button {
 	border-radius: 4px;
 }
 
-/* .clients-item:hover {
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
 .clients-list-link:hover {
 	color: var(--accent-color);
 	border: 1px solid var(--accent-color);
